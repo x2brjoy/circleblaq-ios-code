@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SearchViewXib">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="73"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Discover people" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aje-rP-5sc">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="200" id="JTM-J1-PbR"/>
+                        <constraint firstAttribute="height" constant="15" id="VGd-TC-cgU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
+                    <color key="textColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fine new people to follow" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSl-9h-RqD">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="15" id="Vhb-M0-CRj"/>
+                        <constraint firstAttribute="width" constant="200" id="pO4-s7-8NB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="10"/>
+                    <color key="textColor" red="0.56862745098039214" green="0.56862745098039214" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="otD-7G-XzM">
+                    <color key="backgroundColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="jcX-aN-uWP"/>
+                    </constraints>
+                </view>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search_next_arrow_icon_off.png" highlightedImage="search_next_arrow_icon_on.png" translatesAutoresizingMaskIntoConstraints="NO" id="kz1-mh-ZBE">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="15" id="PN2-Oy-VgD"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="XSl-9h-RqD" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="4Xq-uJ-fat"/>
+                <constraint firstItem="Aje-rP-5sc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="EU8-4b-4ds"/>
+                <constraint firstItem="Aje-rP-5sc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="FTE-Ut-etK"/>
+                <constraint firstAttribute="trailing" secondItem="kz1-mh-ZBE" secondAttribute="trailing" constant="10" id="Jtd-Ih-C4j"/>
+                <constraint firstItem="kz1-mh-ZBE" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="25" id="N9M-WV-Zfj"/>
+                <constraint firstItem="XSl-9h-RqD" firstAttribute="top" secondItem="Aje-rP-5sc" secondAttribute="bottom" constant="5" id="NXt-Ze-Bee"/>
+                <constraint firstAttribute="trailing" secondItem="otD-7G-XzM" secondAttribute="trailing" id="VGP-Zm-mwz"/>
+                <constraint firstItem="otD-7G-XzM" firstAttribute="top" secondItem="XSl-9h-RqD" secondAttribute="bottom" constant="15" id="YWe-cT-qZ4"/>
+                <constraint firstItem="otD-7G-XzM" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="fP4-hf-N7H"/>
+                <constraint firstItem="otD-7G-XzM" firstAttribute="top" secondItem="kz1-mh-ZBE" secondAttribute="bottom" constant="25" id="ifH-y4-uOf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="244" y="263.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="search_next_arrow_icon_off.png" width="7" height="11"/>
+        <image name="search_next_arrow_icon_on.png" width="7" height="11"/>
+    </resources>
+</document>

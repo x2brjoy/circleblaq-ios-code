@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>HBCNetwork</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>Lato-Regular.ttf</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb281670431986997</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>prefs</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>Fabric</key>
+	<dict>
+		<key>APIKey</key>
+		<string>8c41e9486e74492897473de501e087dbc6d9f391</string>
+		<key>Kits</key>
+		<array>
+			<dict>
+				<key>KitInfo</key>
+				<dict/>
+				<key>KitName</key>
+				<string>Crashlytics</string>
+			</dict>
+		</array>
+	</dict>
+	<key>FacebookAppID</key>
+	<string>281670431986997</string>
+	<key>FacebookDisplayName</key>
+	<string>Picogram</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fbapi20130214</string>
+		<string>fbapi20130410</string>
+		<string>fbapi20130702</string>
+		<string>fbapi20131010</string>
+		<string>fbapi20131219</string>
+		<string>fbapi20140410</string>
+		<string>fbapi20140116</string>
+		<string>fbapi20150313</string>
+		<string>fbapi20150629</string>
+		<string>fbauth</string>
+		<string>fbauth2</string>
+		<string>fb-messenger-api20140430</string>
+		<string>fb-messenger-platform-20150128</string>
+		<string>fb-messenger-platform-20150218</string>
+		<string>fb-messenger-platform-20150305</string>
+		<string>googlechromes</string>
+		<string>comgooglemaps</string>
+		<string>instagram</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>${PRODUCT_NAME}  would like to access your Photos so you can start taking photos and videos</string>
+	<key>NSContactsUsageDescription</key>
+	<string>$(PRODUCT_NAME) would like to use your contacts.Your contacts are periodically synced and stored securely on our servers.</string>
+	<key>NSHumanReadableCopyright</key>
+	<string></string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>$(PRODUCT_NAME) would like to use your current location to find near by places.</string>
+	<key>NSLocationWhenInUseUsageDescription - 2</key>
+	<dict>
+		<key>Show your location on the map</key>
+		<string>$(PRODUCT_NAME) would like to use your current location to find near by places.</string>
+	</dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>${PRODUCT_NAME}  would like to access your Microphone</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>${PRODUCT_NAME}  would like to access your Photos so you can start taking photos and videos</string>
+	<key>Privacy - Media Library Usage Description </key>
+	<string>${PRODUCT_NAME}  would like to access your Photos so you can start taking photos and videos</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Roboto-Medium.ttf</string>
+		<string>Roboto-Thin.ttf</string>
+		<string>Roboto-Regular.ttf</string>
+		<string>Roboto-Light.ttf</string>
+		<string>Roboto-Bold.ttf</string>
+		<string>Lato-Regular.ttf</string>
+		<string>Lato-Heavy.ttf</string>
+		<string>ufonts.com_century-gothic-bold</string>
+		<string>ufonts.com_century-gothic (1)</string>
+		<string>open-sans.semibold</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+	</array>
+</dict>
+</plist>

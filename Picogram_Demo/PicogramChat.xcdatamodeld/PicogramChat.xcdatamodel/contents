@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15F34" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Friends" representedClassName="Friends" syncable="YES" codeGenerationType="class">
+        <attribute name="memberFullName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="memberName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="StoreIDs" representedClassName="StoreIDs" syncable="YES" codeGenerationType="class">
+        <attribute name="documentid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Friends" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="StoreIDs" positionX="-54" positionY="-9" width="128" height="75"/>
+    </elements>
+</model>

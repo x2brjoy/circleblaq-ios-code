@@ -1,0 +1,51 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "DD322B0ECCE07BEDA5B1A2FCE1DF550BED233B47",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "09AA0381BFB4EDF0FA16B1A2B0FF2063E29DF483" : 9223372036854775807,
+    "DD322B0ECCE07BEDA5B1A2FCE1DF550BED233B47" : 9223372036854775807,
+    "33AE38069276CCBD86419CDC2D1A79A1716694C6" : 0,
+    "7676EEC68DF3CDE421E1EE7CFB1486EB5498B6FE" : 0,
+    "FF9581EEB01FCC928A738342C35033EB784DFAD5" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7CDEE71F-EED8-4CDD-B0A7-21129CA4BD4F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "09AA0381BFB4EDF0FA16B1A2B0FF2063E29DF483" : "charel\/",
+    "DD322B0ECCE07BEDA5B1A2FCE1DF550BED233B47" : "picogram-ios-code\/",
+    "33AE38069276CCBD86419CDC2D1A79A1716694C6" : "picogram_v2_ios\/",
+    "7676EEC68DF3CDE421E1EE7CFB1486EB5498B6FE" : "Downloads\/Insta%20Video%20With%20Photo%20Downloads\/",
+    "FF9581EEB01FCC928A738342C35033EB784DFAD5" : "pico_chat_calls\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Picogram",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Picogram.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/rsharma87\/charles_ios_code.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "09AA0381BFB4EDF0FA16B1A2B0FF2063E29DF483"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/rsharma87\/picogram_v2_ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "33AE38069276CCBD86419CDC2D1A79A1716694C6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/nautiyalsachin\/instagram-repo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7676EEC68DF3CDE421E1EE7CFB1486EB5498B6FE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/cbqappscript\/circleblaq-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DD322B0ECCE07BEDA5B1A2FCE1DF550BED233B47"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/rsharma87\/picogramv-2_ios_chat_businessprofile.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FF9581EEB01FCC928A738342C35033EB784DFAD5"
+    }
+  ]
+}

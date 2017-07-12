@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FullImageViewXib">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FGe-GS-Ppf">
+                    <constraints>
+                        <constraint firstAttribute="width" id="BFS-4Z-70E"/>
+                        <constraint firstAttribute="height" id="QyF-Bn-jeT"/>
+                    </constraints>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nZl-pB-gty">
+                    <subviews>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video_share_video_icon_off" translatesAutoresizingMaskIntoConstraints="NO" id="iTP-hV-y3z">
+                            <constraints>
+                                <constraint firstAttribute="width" constant="50" id="KlF-DX-Pr1"/>
+                                <constraint firstAttribute="height" constant="50" id="LdH-N5-Yyq"/>
+                            </constraints>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="iTP-hV-y3z" firstAttribute="centerX" secondItem="nZl-pB-gty" secondAttribute="centerX" id="PDf-Fz-beY"/>
+                        <constraint firstAttribute="width" id="lFF-HN-Nsh"/>
+                        <constraint firstItem="iTP-hV-y3z" firstAttribute="centerY" secondItem="nZl-pB-gty" secondAttribute="centerY" id="odB-tO-ieG"/>
+                        <constraint firstAttribute="height" id="qoh-mS-Eyi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="nZl-pB-gty" secondAttribute="trailing" id="FhA-oN-dev"/>
+                <constraint firstAttribute="trailing" secondItem="FGe-GS-Ppf" secondAttribute="trailing" id="cZY-Hu-rvs"/>
+                <constraint firstItem="nZl-pB-gty" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ftc-Tx-aj8"/>
+                <constraint firstItem="FGe-GS-Ppf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="yPF-K3-UbJ"/>
+            </constraints>
+            <connections>
+                <outlet property="imageView" destination="FGe-GS-Ppf" id="zRw-wc-iMe"/>
+                <outlet property="imageViewTopConstraint" destination="yPF-K3-UbJ" id="5dn-YI-x1U"/>
+                <outlet property="imageViewWidthConstraint" destination="BFS-4Z-70E" id="7hd-hE-kAb"/>
+                <outlet property="imageViewtrailingConstraint" destination="cZY-Hu-rvs" id="3aB-Ej-C2r"/>
+                <outlet property="imageviewHeight" destination="QyF-Bn-jeT" id="eki-30-q9m"/>
+                <outlet property="pauseVideoImageViewOutlet" destination="iTP-hV-y3z" id="HWy-LM-cHN"/>
+                <outlet property="viewForPlayingVideo" destination="nZl-pB-gty" id="DIY-7d-k3I"/>
+                <outlet property="viewForPlayingVideoHeight" destination="qoh-mS-Eyi" id="E2R-w0-gwo"/>
+                <outlet property="viewForPlayingVideoTopConstraint" destination="ftc-Tx-aj8" id="LCq-Fy-NPD"/>
+                <outlet property="viewForPlayingVideoTrailingConstraint" destination="FhA-oN-dev" id="R3w-zV-rPp"/>
+                <outlet property="viewForPlayingVideoWidth" destination="lFF-HN-Nsh" id="qkT-hT-DhU"/>
+                <outletCollection property="gestureRecognizers" destination="oTO-Xq-EgC" appends="YES" id="fr2-KH-aOZ"/>
+            </connections>
+        </view>
+        <tapGestureRecognizer id="oTO-Xq-EgC">
+            <connections>
+                <action selector="tapGestureForImageRemoval:" destination="iN0-l3-epB" id="NSj-kx-x8C"/>
+                <outlet property="delegate" destination="iN0-l3-epB" id="EzG-ws-1pR"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="video_share_video_icon_off" width="50" height="50"/>
+    </resources>
+</document>

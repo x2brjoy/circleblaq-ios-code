@@ -1,0 +1,7 @@
+
+Pods/*
+Couchbaselite.framework/*
+FBSDKShareKit.framework/*
+Crashlytics.framework/*
+FBSDKCoreKit.framework/*
+FBSDKLoginKit.framework/*

@@ -1,0 +1,98 @@
+PODS:
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - APAddressBook (0.2.3):
+    - APAddressBook/Core (= 0.2.3)
+  - APAddressBook/Core (0.2.3)
+  - Firebase/Core (3.14.0):
+    - FirebaseAnalytics (= 3.7.0)
+    - FirebaseCore (= 3.5.1)
+  - Firebase/Messaging (3.14.0):
+    - Firebase/Core
+    - FirebaseMessaging (= 1.2.2)
+  - FirebaseAnalytics (3.7.0):
+    - FirebaseCore (~> 3.5)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseCore (3.5.1):
+    - GoogleToolboxForMac/NSData+zlib (~> 2.1)
+  - FirebaseInstanceID (1.0.9)
+  - FirebaseMessaging (1.2.2):
+    - FirebaseAnalytics (~> 3.7)
+    - FirebaseInstanceID (~> 1.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - GoogleMaps (2.2.0):
+    - GoogleMaps/Maps (= 2.2.0)
+  - GoogleMaps/Base (2.2.0)
+  - GoogleMaps/Maps (2.2.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.2.0):
+    - GoogleMaps/Base (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.1.1)
+  - GoogleToolboxForMac/Logger (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - GoogleToolboxForMac/NSData+zlib (2.1.1):
+    - GoogleToolboxForMac/Defines (= 2.1.1)
+  - JTSImageViewController (1.5.1)
+  - libjingle_peerconnection (11177.2.0)
+  - Protobuf (3.2.0)
+  - SCRecorder (2.7.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SIOSocket (0.2.0)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.0)
+  - APAddressBook (~> 0.2.0)
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlaces
+  - JTSImageViewController (~> 1.4)
+  - libjingle_peerconnection
+  - SCRecorder
+  - SDWebImage (~> 3.7)
+  - SIOSocket
+
+SPEC CHECKSUMS:
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  APAddressBook: 2a91bf05999548bea210ec9d1a68073f4dc8bfce
+  Firebase: 85a581fb04e44f63ae9f4fbc8d6dabf4a4c18653
+  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
+  FirebaseCore: 225d40532489835a034b8f4e2c9c87fbf4f615a2
+  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
+  FirebaseMessaging: df8267f378580a24174ce7861233aa11d5c90109
+  GoogleMaps: 104c418d61ab8a05dff06ed0784c25ea9d37da45
+  GooglePlaces: bca867d5e9da15384c794b945e4226848bc6e9d9
+  GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
+  JTSImageViewController: 1f8ce1cc93dab0d0af8e53badeea7528560cfec9
+  libjingle_peerconnection: 3458f646ddd61f08a9f3a0c43fb01fff5c165eb8
+  Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
+  SCRecorder: bbb521dbc222908876ec9cd9156bbc8a893bed44
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SIOSocket: 2facc0bd02ae72d98c223634a46dd8ebdf9be321
+
+PODFILE CHECKSUM: bb96d049759303086b66756f6790d4b5a6d1a8bd
+
+COCOAPODS: 1.0.1

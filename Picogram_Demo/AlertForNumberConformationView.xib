@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="AlertForNumberConformation">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vDO-sS-XyO">
+                    <rect key="frame" x="15" y="186" width="570" height="229"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1234567890" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLa-60-cY0">
+                            <rect key="frame" x="10" y="59" width="550" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="jXO-El-PrI"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="13"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="is this OK,or would you like to edit the number?" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bW1-1B-fob">
+                            <rect key="frame" x="10" y="100" width="550" height="41"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="41" id="351-81-Chq"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="13"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Mx-qS-M3j">
+                            <rect key="frame" x="285" y="169" width="285" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="bpc-Wu-0Ra"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="0.0" minY="0.0" maxX="30" maxY="0.0"/>
+                            <state key="normal" title="OK">
+                                <color key="titleColor" red="0.72156862745098038" green="0.53725490196078429" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="okBUtton:" destination="iN0-l3-epB" eventType="touchUpInside" id="6ov-JR-nOh"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Let`s verify your number" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5Y-ND-uoc">
+                            <rect key="frame" x="10" y="30" width="550" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="bRz-Cw-JYn"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="13"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kdq-Yh-R7d">
+                            <rect key="frame" x="0.0" y="169" width="285" height="40"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="WP1-Rh-wTM"/>
+                            </constraints>
+                            <inset key="titleEdgeInsets" minX="30" minY="0.0" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="EDIT">
+                                <color key="titleColor" red="0.72156862745098038" green="0.53725490196078429" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="editButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="hwe-KD-5ye"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="Kdq-Yh-R7d" secondAttribute="bottom" constant="20" id="23x-tF-7cI"/>
+                        <constraint firstItem="Kdq-Yh-R7d" firstAttribute="leading" secondItem="vDO-sS-XyO" secondAttribute="leading" id="2QQ-Oh-dG2"/>
+                        <constraint firstAttribute="trailing" secondItem="V5Y-ND-uoc" secondAttribute="trailing" constant="10" id="7BN-HG-VtW"/>
+                        <constraint firstAttribute="trailing" secondItem="gLa-60-cY0" secondAttribute="trailing" constant="10" id="DeZ-Qn-5zx"/>
+                        <constraint firstItem="bW1-1B-fob" firstAttribute="top" secondItem="gLa-60-cY0" secondAttribute="bottom" constant="26" id="EE5-0C-luh"/>
+                        <constraint firstItem="gLa-60-cY0" firstAttribute="leading" secondItem="vDO-sS-XyO" secondAttribute="leading" constant="10" id="GuJ-GB-xu7"/>
+                        <constraint firstItem="V5Y-ND-uoc" firstAttribute="leading" secondItem="vDO-sS-XyO" secondAttribute="leading" constant="10" id="HjK-Gk-6sZ"/>
+                        <constraint firstItem="gLa-60-cY0" firstAttribute="top" secondItem="V5Y-ND-uoc" secondAttribute="bottom" constant="14" id="K9U-yz-VNR"/>
+                        <constraint firstAttribute="bottom" secondItem="3Mx-qS-M3j" secondAttribute="bottom" constant="20" id="KFJ-yg-9Kb"/>
+                        <constraint firstAttribute="trailing" secondItem="bW1-1B-fob" secondAttribute="trailing" constant="10" id="aOc-Nj-4uF"/>
+                        <constraint firstItem="bW1-1B-fob" firstAttribute="leading" secondItem="vDO-sS-XyO" secondAttribute="leading" constant="10" id="gKR-bH-od8"/>
+                        <constraint firstItem="Kdq-Yh-R7d" firstAttribute="top" secondItem="bW1-1B-fob" secondAttribute="bottom" constant="28" id="iH3-8X-JtI"/>
+                        <constraint firstAttribute="trailing" secondItem="3Mx-qS-M3j" secondAttribute="trailing" id="lHP-wV-f4R"/>
+                        <constraint firstItem="Kdq-Yh-R7d" firstAttribute="width" secondItem="3Mx-qS-M3j" secondAttribute="width" id="sjn-X3-lS1"/>
+                        <constraint firstItem="V5Y-ND-uoc" firstAttribute="top" secondItem="vDO-sS-XyO" secondAttribute="top" constant="30" id="zGb-mj-0HO"/>
+                        <constraint firstItem="3Mx-qS-M3j" firstAttribute="leading" secondItem="Kdq-Yh-R7d" secondAttribute="trailing" id="zWd-Ts-jyi"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.59999999999999998" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="vDO-sS-XyO" secondAttribute="trailing" constant="15" id="0Qv-Oy-6sx"/>
+                <constraint firstItem="vDO-sS-XyO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="Zwf-On-iYS"/>
+                <constraint firstItem="vDO-sS-XyO" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="fgf-FA-o0r"/>
+            </constraints>
+            <connections>
+                <outlet property="phnNumber" destination="gLa-60-cY0" id="bKb-7G-Mfx"/>
+                <outlet property="popView" destination="vDO-sS-XyO" id="cDv-0W-RmU"/>
+            </connections>
+            <point key="canvasLocation" x="426" y="274"/>
+        </view>
+    </objects>
+</document>
