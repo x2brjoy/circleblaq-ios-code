@@ -54,7 +54,6 @@
 		C2070D551E573ADE00ECA69E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2070D541E573ADE00ECA69E /* UIKit.framework */; };
 		C2070D581E573AFC00ECA69E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2070D561E573AFC00ECA69E /* AddressBook.framework */; };
 		C2070D591E573AFC00ECA69E /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2070D571E573AFC00ECA69E /* AddressBookUI.framework */; };
-		C2070D5B1E573B3100ECA69E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2070D5A1E573B3100ECA69E /* AudioToolbox.framework */; };
 		C2070D5D1E573B5300ECA69E /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2070D5C1E573B5300ECA69E /* AVKit.framework */; };
 		C2070D5F1E573B7400ECA69E /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2070D5E1E573B7400ECA69E /* libsqlite3.tbd */; };
 		C2070D611E573B9000ECA69E /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C2070D601E573B9000ECA69E /* libz.tbd */; };
@@ -603,7 +602,6 @@
 		C2070D541E573ADE00ECA69E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C2070D561E573AFC00ECA69E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		C2070D571E573AFC00ECA69E /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
-		C2070D5A1E573B3100ECA69E /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C2070D5C1E573B5300ECA69E /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		C2070D5E1E573B7400ECA69E /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		C2070D601E573B9000ECA69E /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
@@ -1461,7 +1459,6 @@
 				C2070D611E573B9000ECA69E /* libz.tbd in Frameworks */,
 				C2070D5F1E573B7400ECA69E /* libsqlite3.tbd in Frameworks */,
 				C2070D5D1E573B5300ECA69E /* AVKit.framework in Frameworks */,
-				C2070D5B1E573B3100ECA69E /* AudioToolbox.framework in Frameworks */,
 				C2070D581E573AFC00ECA69E /* AddressBook.framework in Frameworks */,
 				C2070D591E573AFC00ECA69E /* AddressBookUI.framework in Frameworks */,
 				C2070D551E573ADE00ECA69E /* UIKit.framework in Frameworks */,
@@ -3721,7 +3718,6 @@
 				C2070D601E573B9000ECA69E /* libz.tbd */,
 				C2070D5E1E573B7400ECA69E /* libsqlite3.tbd */,
 				C2070D5C1E573B5300ECA69E /* AVKit.framework */,
-				C2070D5A1E573B3100ECA69E /* AudioToolbox.framework */,
 				C2070D561E573AFC00ECA69E /* AddressBook.framework */,
 				C2070D571E573AFC00ECA69E /* AddressBookUI.framework */,
 				C2070D541E573ADE00ECA69E /* UIKit.framework */,
@@ -4183,14 +4179,38 @@
 				TargetAttributes = {
 					6BBE803B1C69EEAE00ECD3DB = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = 5A693V6KR5;
+						DevelopmentTeam = F4ZBNTK3M4;
 						ProvisioningStyle = Manual;
 						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
 							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 0;
+							};
+							com.apple.HealthKit = {
+								enabled = 0;
+							};
+							com.apple.HomeKit = {
+								enabled = 0;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
 								enabled = 1;
 							};
 							com.apple.Push = {
 								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 0;
 							};
 						};
 					};
@@ -5013,7 +5033,7 @@
 				CODE_SIGN_ENTITLEMENTS = Picogram.entitlements;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 5A693V6KR5;
+				DEVELOPMENT_TEAM = F4ZBNTK3M4;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5043,8 +5063,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbc.hbcnetwork;
 				PRODUCT_NAME = Picogram;
-				PROVISIONING_PROFILE = "32e1da42-f8c5-40a2-a509-c75a35c5b037";
-				PROVISIONING_PROFILE_SPECIFIER = picog_dev;
+				PROVISIONING_PROFILE = "4bd72fba-8329-44e7-bccb-889791ac3ee3";
+				PROVISIONING_PROFILE_SPECIFIER = "HBC Network Profile";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
@@ -5059,7 +5079,7 @@
 				CODE_SIGN_ENTITLEMENTS = Picogram.entitlements;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 5A693V6KR5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -5089,8 +5109,8 @@
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.hbc.hbcnetwork;
 				PRODUCT_NAME = Picogram;
-				PROVISIONING_PROFILE = "32e1da42-f8c5-40a2-a509-c75a35c5b037";
-				PROVISIONING_PROFILE_SPECIFIER = picog_dev;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
